@@ -1,0 +1,16 @@
+{
+	"name": "project-coder",
+	"version": "0.0.1",
+	"workspaces": [
+		"backend",
+		"frontend"
+	],
+	"devDependencies": {
+		"@biomejs/biome": "2.4.15"
+	},
+	"scripts": {
+		"format": "biome format --write",
+		"lint": "biome lint --write",
+		"check": "biome check --write"
+	}
+}

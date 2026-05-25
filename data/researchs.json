@@ -1,0 +1,82 @@
+{
+	"HTML": {
+		"id": 1,
+		"title": "HTML",
+		"description": "HTML (HyperText Markup Language) is the standard markup language for creating web pages and web applications. It provides the structure of a webpage, allowing developers to define elements such as headings, paragraphs, links, images, and more. HTML is essential for building the content of a website and is often used in conjunction with CSS and JavaScript to create interactive and visually appealing web pages.",
+		"skill-gain": 10,
+		"time": 1,
+		"pre-requisites": []
+	},
+	"CSS": {
+		"id": 2,
+		"title": "CSS",
+		"description": "CSS (Cascading Style Sheets) is a stylesheet language used to describe the presentation of a document written in HTML or XML. It allows developers to control the layout, colors, fonts, and overall visual appearance of a webpage. CSS works by applying styles to HTML elements, enabling developers to create visually appealing and responsive web designs. It is an essential skill for front-end web development and is often used alongside HTML and JavaScript.",
+		"skill-gain": 10,
+		"time": 1,
+		"pre-requisites": [1]
+	},
+	"JavaScript": {
+		"id": 3,
+		"title": "JavaScript",
+		"description": "JavaScript is a programming language that allows developers to create interactive and dynamic content on web pages. It is commonly used for client-side scripting, enabling features such as form validation, animations, and user interactions. JavaScript can also be used on the server-side with frameworks like Node.js. It is an essential skill for front-end web development and is often used in conjunction with HTML and CSS to create engaging web experiences.",
+		"skill-gain": 50,
+		"time": 4,
+		"pre-requisites": [1]
+	},
+	"Git": {
+		"id": 4,
+		"title": "Git",
+		"description": "Git is a distributed version control system that allows developers to track changes in their code and collaborate with others. It provides a way to manage and organize code repositories, enabling multiple developers to work on the same project simultaneously. Git allows for branching and merging, making it easier to experiment with new features and maintain a clean codebase. It is an essential tool for software development and is widely used in the industry.",
+		"skill-gain": 10,
+		"time": 1,
+		"pre-requisites": []
+	},
+	"npm": {
+		"id": 5,
+		"title": "npm",
+		"description": "npm (Node Package Manager) is a package manager for JavaScript that allows developers to easily share and reuse code. It provides a vast ecosystem of open-source libraries and tools that can be installed and managed with a simple command-line interface. npm is commonly used in Node.js projects to manage dependencies and streamline the development process. It is an essential tool for JavaScript developers and is widely used in the industry.",
+		"skill-gain": 10,
+		"time": 0.5,
+		"pre-requisites": [3]
+	},
+	"React": {
+		"id": 6,
+		"title": "React",
+		"description": "React is a JavaScript library for building user interfaces. It allows developers to create reusable UI components and efficiently update and render them based on changes in data. React uses a virtual DOM (Document Object Model) to optimize rendering performance, making it suitable for building complex and interactive web applications. It is widely used in the industry and has a large community of developers contributing to its ecosystem.",
+		"skill-gain": 50,
+		"time": 4,
+		"pre-requisites": [3]
+	},
+	"Node.js": {
+		"id": 7,
+		"title": "Node.js",
+		"description": "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. It allows developers to run JavaScript code on the server-side, enabling the creation of scalable and high-performance web applications. Node.js uses an event-driven, non-blocking I/O model, making it efficient for handling concurrent requests. It has a vast ecosystem of libraries and frameworks, making it a popular choice for server-side development.",
+		"skill-gain": 50,
+		"time": 4,
+		"pre-requisites": [3]
+	},
+	"MongoDB": {
+		"id": 8,
+		"title": "MongoDB",
+		"description": "MongoDB is a NoSQL database that provides a flexible and scalable solution for storing and managing data. It uses a document-oriented data model, allowing developers to store data in JSON-like format. MongoDB is designed for high performance and scalability, making it suitable for handling large volumes of data. It is commonly used in web applications and is often paired with Node.js for full-stack development.",
+		"skill-gain": 50,
+		"time": 4,
+		"pre-requisites": [7]
+	},
+	"Express.js": {
+		"id": 9,
+		"title": "Express.js",
+		"description": "Express.js is a web application framework for Node.js that provides a robust set of features for building web applications and APIs. It simplifies the process of handling HTTP requests, routing, and middleware integration. Express.js allows developers to create server-side applications quickly and efficiently, making it a popular choice for building RESTful APIs and web applications.",
+		"skill-gain": 50,
+		"time": 4,
+		"pre-requisites": [7]
+	},
+	"TypeScript": {
+		"id": 10,
+		"title": "TypeScript",
+		"description": "TypeScript is a superset of JavaScript that adds static typing to the language. It allows developers to catch errors at compile-time, improving code quality and maintainability. TypeScript provides features such as interfaces, classes, and modules, making it easier to write scalable and robust applications. It is widely used in the industry and has gained popularity for its ability to enhance the development experience while still being compatible with existing JavaScript code.",
+		"skill-gain": 50,
+		"time": 4,
+		"pre-requisites": [3]
+	}
+}

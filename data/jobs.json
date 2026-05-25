@@ -1,0 +1,54 @@
+[
+	{
+		"preRequisites": [],
+		"jobs": [
+			{
+				"id": 1,
+				"title": "Fast Food Worker",
+				"description": "It's not your dream job, but it's a step in the right direction!",
+				"pay": 400,
+				"confidenceGain": 0
+			},
+			{
+				"id": 2,
+				"title": "Retail Associate",
+				"description": "Working in retail can help you develop customer service skills and gain experience in a fast-paced environment.",
+				"pay": 500,
+				"confidenceGain": 0
+			},
+			{
+				"id": 3,
+				"title": "Warehouse Worker",
+				"description": "Warehouse work can provide valuable experience in logistics and inventory management, and it can be a stepping stone to more advanced roles in the future.",
+				"pay": 500,
+				"confidenceGain": 0
+			}
+		]
+	},
+	{
+		"preRequisites": [1],
+		"jobs": [
+			{
+				"id": 4,
+				"title": "HTML Tag Architect",
+				"description": "As an HTML tag architect, your job is to find orphaned tags and close them. This is serious business.",
+				"pay": 1000,
+				"confidenceGain": 5
+			},
+			{
+				"id": 5,
+				"title": "Div-Bricklayer",
+				"description": "As a div-bricklayer, your job is to build walls of divs. It's a tough job, but someone's gotta do it.",
+				"pay": 700,
+				"confidenceGain": 8
+			},
+			{
+				"id": 6,
+				"title": "Certified Professional Indenter",
+				"description": "As a certified professional indenter, your job is to indent code properly. This is a highly sought-after skill in the world of web development.",
+				"pay": 1200,
+				"confidenceGain": 3
+			}
+		]
+	}
+]
