@@ -10,7 +10,7 @@ ProjectCoder is a web-based Tycoon game inspired by Game Dev Tycoon (see `doc/de
 
 Bun workspaces monorepo. Root `package.json` declares `"workspaces": ["backend", "frontend"]`.
 
-- `backend/` — Bun server (`Bun.serve`, entry `index.ts`). Package name `@project-coder/backend`.
+- `backend/` — Bun server (`Bun.serve`, entry `src/index.ts`). Package name `@project-coder/backend`.
 - `frontend/` — React UI via Bun HTML imports (scaffold only so far: `package.json` + `tsconfig.json`, no source yet).
 - `data/` — game content, **not** a workspace. Source of truth for the game loop.
 - `doc/` — `design.md` (game design) and `niveau.md` (internal tutoring-mode log; not project docs).
@@ -26,7 +26,7 @@ This project uses Bun for everything (runtime, bundler, package manager, test ru
 Run from the repo root:
 
 - `bun install` — install all workspaces (hoisted).
-- `bun --hot backend/index.ts` — run the server with hot reload.
+- `bun --hot backend/src/index.ts` — run the server with hot reload.
 - `bun test` — run tests (`bun test <file>` for a single file, `bun test -t "<name>"` for a single test).
 - `bun check` — Biome lint + format **with `--write`** (auto-fixes in place; it does not act as a read-only gate). `bun format` / `bun lint` likewise auto-write.
 
